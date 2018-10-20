@@ -31,11 +31,12 @@ end
 def hit?(card_total)
   prompt_user
   if get_user_input == 'h'
-    card_total += deal_card
+    deal_card
   elsif get_user_input != "s"
+  else
     invalid_command
   end
-    card_total
+  card_total
 end
 
 def invalid_command
