@@ -44,7 +44,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(card_total)
+def runner
   welcome  
   card_total = initial_round
   while card_total < 21
